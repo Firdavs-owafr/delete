@@ -1,0 +1,1040 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+body {
+  font-family: "Ubuntu";
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+header .avto {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+header .avto .foto {
+  width: 20%;
+  margin: 0 auto;
+  padding-left: 135px;
+}
+header .avto .foto a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  margin-right: 7px;
+}
+header .avto .foto span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 26px;
+  background: -webkit-gradient(linear, right top, left top, from(#8EE901), color-stop(99.06%, #4F9C2C));
+  background: linear-gradient(270deg, #8EE901 0%, #4F9C2C 99.06%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+header .avto .text {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding-right: 107px;
+}
+header .avto .text .burger {
+  width: 30px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: none;
+}
+header .avto .text .burger .lin1 {
+  width: 30px;
+  height: 2px;
+  background-color: black;
+}
+header .avto .text .kat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+header .avto .icon {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+header .avto .icon .svg {
+  width: 50px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  border-right: 1px solid #EFEFEF;
+  padding: 13px 27px 27px 27px;
+}
+header .avto .icon .svg:nth-child(1) {
+  border-left: 1px solid #EFEFEF;
+}
+header .avto .icon .svg:nth-child(5) {
+  border-right: none;
+}
+header .avto .icon .svg:hover {
+  cursor: pointer;
+}
+header .avto .icon .svg:hover svg path {
+  fill: #009432;
+}
+header .avto .icon .svg .num {
+  width: 20px;
+  height: 20px;
+  left: 41px;
+  top: 19px;
+  background-color: white;
+  border-radius: 100%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+}
+header .avto .icon .svg .oval {
+  width: 20px;
+  height: 20px;
+  left: 41px;
+  top: 19px;
+  border-radius: 100%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  background: -webkit-gradient(linear, right top, left top, from(#8EE901), color-stop(99.06%, #4F9C2C));
+  background: linear-gradient(270deg, #8EE901 0%, #4F9C2C 99.06%);
+  border-radius: 100px;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+}
+header .avto .burger {
+  width: 30px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: none;
+}
+header .avto .burger .lin1 {
+  width: 30px;
+  height: 2px;
+  background-color: black;
+}
+header .back-img {
+  width: 100%;
+  height: 650px;
+  background-image: url(../img/background-girls.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 330px 965px 37px 155px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+header .back-img .norm {
+  width: 500px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header .back-img .norm .arend {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 13px 16px 10px 20px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 99;
+}
+header .back-img .norm .arend:last-child {
+  margin-bottom: 10px;
+}
+header .back-img .norm .arend span {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 61px;
+  text-transform: uppercase;
+  background: -webkit-gradient(linear, right top, left top, from(#8EE901), color-stop(99.06%, #4F9C2C));
+  background: linear-gradient(270deg, #8EE901 0%, #4F9C2C 99.06%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+header .back-img .oval {
+  position: absolute;
+  top: 670px;
+  left: 125px;
+  width: 60px;
+  height: 60px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#8EE902), to(#4F9C2C));
+  background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+  border-radius: 100px 0 100px 100px;
+}
+header .cards-ded {
+  width: 100%;
+  background: #F5F5F5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 96px;
+}
+header .cards-ded .cards {
+  width: 80%;
+  height: 130px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+header .cards-ded .cards .card {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .cards-ded .cards .card:not(:last-child) {
+  margin-right: 24px;
+}
+header .cards-ded .cards .card svg {
+  width: 52px;
+  height: 32px;
+}
+header .cards-ded .cards .card svg:not(:last-child) {
+  margin-right: 19px;
+}
+header .cards-ded .cards .card .text {
+  width: 142px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+header .foto-back {
+  width: 100%;
+  height: 1000px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+header .foto-back .popul {
+  text-align: center;
+  width: 100%;
+  height: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: black;
+  margin-bottom: 27px;
+}
+header .foto-back .popul span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #60B021;
+}
+header .foto-back .foto-back {
+  width: 90%;
+  height: 420px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  margin-bottom: 93px;
+}
+header .foto-back .foto-back .slider {
+  width: 40px;
+  height: 40px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .foto-back .foto-back .box-foto {
+  width: 350px;
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+}
+header .foto-back .foto-back .box-foto .photos {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 26px 30px 33px 55px;
+}
+header .foto-back .foto-back .box-foto .photos .svg-ph {
+  width: 10px;
+  height: 40px;
+  margin-left: 30px;
+}
+header .foto-back .foto-back .box-foto .photos .svg-ph svg {
+  margin-bottom: 18px;
+}
+header .foto-back .foto-back .box-foto .power {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+header .foto-back .foto-back .box-foto .power .short {
+  width: 100%;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+}
+header .foto-back .foto-back .box-foto .power span {
+  font-size: 16px;
+  line-height: 26px;
+  color: #8b8686;
+}
+header .foto-back .foto-back .box-foto .buy {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+header .foto-back .foto-back .box-foto .buy .kubik {
+  width: 70px;
+  height: 40px;
+  background-color: blanchedalmond;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  background: #FFFFFF;
+  border: 1px solid #EFEFEF;
+}
+header .foto-back .foto-back .box-foto .buy .kubik span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8b8686;
+}
+header .foto-back .foto-back .box-foto .hover {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 21px;
+}
+header .foto-back .foto-back .box-foto .hover .info {
+  width: 140px;
+  height: 40px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-right: 20px;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  cursor: pointer;
+}
+header .foto-back .foto-back .box-foto .hover .info:hover {
+  background-color: #000000;
+  color: white;
+}
+header .foto-back .foto-back .box-foto .hover .buyed {
+  width: 140px;
+  height: 40px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#8EE902), to(#4F9C2C));
+  background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  cursor: pointer;
+}
+header .foto-back .foto-back .box-foto .hover .buyed svg {
+  margin-right: 9px;
+}
+header .foto-back .foto-back .box-foto .hover .buyed:hover {
+  background: white;
+  color: #000000;
+}
+header .foto-back .foto-back .box-foto .hover .buyed:hover svg {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  margin-right: 9px;
+}
+header .foto-back .foto-back .box-foto .hover .buyed:hover svg path {
+  fill: black;
+}
+header .foto-back .text-hover {
+  width: 570px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+header .foto-back .text-hover h1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 24px;
+}
+header .foto-back .text-hover h1 span {
+  color: #60B021;
+}
+header .foto-back .text-hover .project {
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  color: #75758A;
+  margin-bottom: 17px;
+}
+header .foto-back .text-hover .hover {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header .foto-back .text-hover .hover .info {
+  width: 260px;
+  height: 40px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-right: 20px;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  cursor: pointer;
+}
+header .foto-back .text-hover .hover .info:hover {
+  background-color: #000000;
+  color: white;
+}
+header .foto-back .text-hover .hover .buyed {
+  width: 260px;
+  height: 40px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#8EE902), to(#4F9C2C));
+  background: linear-gradient(180deg, #8EE902 0%, #4F9C2C 100%);
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  margin-right: 20px;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+header .foto-back .text-hover .hover .buyed svg {
+  margin-right: 9px;
+}
+header .foto-back .text-hover .hover .buyed:hover {
+  background: white;
+  color: #000000;
+}
+header .foto-back .text-hover .hover .buyed:hover svg {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  margin-right: 9px;
+}
+header .foto-back .text-hover .hover .buyed:hover svg path {
+  fill: black;
+}
+header .foto-back .big-img {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+header .foto-back .big-img .small-img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header .foto-back .big-img .small-img .img-camera {
+  width: 30%;
+  height: 350px;
+  background-image: url(../img/photo-snow.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 0px 25px 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 24px;
+}
+header .foto-back .big-img .small-img .img-camera:nth-child(2) {
+  width: 30%;
+  height: 350px;
+  background-image: url(../img/photo-girls.png);
+}
+header .foto-back .big-img .small-img .img-camera:nth-child(3) {
+  width: 30%;
+  height: 350px;
+  background-image: url(../img/photo-forest.png);
+}
+header .foto-back .big-img .small-img .img-camera .text-snow {
+  width: 60%;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 42px;
+  color: #000000;
+}
+header .foto-back .big-img .small-img .img-camera .text-snow .sd {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+}
+header .foto-back .big-img .small-img .img-camera .text-snow .ot {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  margin-bottom: 25px;
+}
+header .foto-back .big-img .long-img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header .foto-back .big-img .long-img .like {
+  width: 65%;
+  height: 350px;
+  background-image: url(../img/photo-everest.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 533px 13px 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 42px;
+  color: #000000;
+  margin-right: 30px;
+}
+header .foto-back .big-img .long-img .like .sd {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 10px 14px 8px 14px;
+}
+header .foto-back .big-img .long-img .like .ot {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 10px 14px 8px 14px;
+  margin-bottom: 25px;
+}
+header .foto-back .big-img .long-img .img-more {
+  width: 30%;
+  height: 350px;
+  background-image: url(../img/photo-more.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 213px 108px 25px 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 42px;
+  color: #000000;
+}
+header .foto-back .big-img .long-img .img-more .sd {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 10px 14px 8px 14px;
+}
+header .foto-back .big-img .long-img .img-more .ot {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 10px 14px 8px 14px;
+  margin-bottom: 25px;
+}
+header .foto-back .money {
+  width: 100%;
+  height: 600px;
+  background: #F5F5F5;
+}
+header .foto-back .money h2 {
+  padding-top: 96px;
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+header .foto-back .money h2 span {
+  color: #60B021;
+}
+header .foto-back .money .tt {
+  width: 470px;
+  font-size: 14px;
+  line-height: 26px;
+  color: #75758A;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 37px;
+}
+header .foto-back .money .bril {
+  width: 80%;
+  background-color: red;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header .foto-back .money .bril .bril-box {
+  width: 255px;
+  height: 155px;
+  background-color: grey;
+  padding: 25px 30px 30px 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+header .foto-back .money .bril .bril-box .bril-text {
+  width: 195px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 32px;
+}
+header .foto-back .money .bril .bril-box .bril-icon {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media only screen and (max-width: 600px) {
+  header .avto {
+    width: 75%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .avto .foto {
+    width: 85%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 20px;
+  }
+  header .avto .foto a {
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+    margin-right: 7px;
+  }
+  header .avto .foto span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 26px;
+    background: -webkit-gradient(linear, right top, left top, from(#8EE901), color-stop(99.06%, #4F9C2C));
+    background: linear-gradient(270deg, #8EE901 0%, #4F9C2C 99.06%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  header .avto .text {
+    width: 0;
+    height: 0;
+    display: none;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .avto .text .kat {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #000000;
+    display: none;
+  }
+  header .avto .icon {
+    width: 45%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .avto .icon .svg {
+    width: 50px;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    border-right: 1px solid #EFEFEF;
+  }
+  header .avto .icon .svg:nth-child(1) {
+    border-left: 1px solid #EFEFEF;
+  }
+  header .avto .icon .svg:nth-child(5) {
+    border-right: none;
+  }
+  header .avto .icon .svg:hover {
+    cursor: pointer;
+  }
+  header .avto .icon .svg:hover svg path {
+    fill: #009432;
+  }
+  header .avto .icon .svg .num {
+    width: 20px;
+    height: 20px;
+    left: 25px;
+    top: 5px;
+    background-color: white;
+    border-radius: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+  }
+  header .avto .icon .svg .oval {
+    width: 20px;
+    height: 20px;
+    left: 25px;
+    top: 5px;
+    border-radius: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    background: -webkit-gradient(linear, right top, left top, from(#8EE901), color-stop(99.06%, #4F9C2C));
+    background: linear-gradient(270deg, #8EE901 0%, #4F9C2C 99.06%);
+    border-radius: 100px;
+  }
+  header .avto .burger {
+    width: 30px;
+    height: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 20px;
+  }
+  header .avto .burger .lin1 {
+    width: 30px;
+    height: 2px;
+    background-color: black;
+  }
+}/*# sourceMappingURL=style.css.map */
